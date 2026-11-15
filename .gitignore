@@ -1,0 +1,24 @@
+# secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+# deps & caches
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+# build
+dist/
+build/
+.next/
+# os
+.DS_Store
+Thumbs.db
+
+cache/
